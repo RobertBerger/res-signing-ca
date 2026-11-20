@@ -1,0 +1,113 @@
+<svg class="light" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 764.3 270" width="764.3" height="270" id="m54bf27__root" data-diagram-type="ascii">
+  <style data-mercat-style="universal">.mercat text{font-family:'Google Sans',Roboto,Arial,sans-serif;fill:var(--m-text);dominant-baseline:central}.mercat .m-node .m-shape{fill:var(--m-node-fill);stroke:var(--m-node-stroke);stroke-width:1.5px}.mercat .m-edge .m-path{fill:none;stroke:var(--m-line);stroke-width:1.5px}.mercat .m-note .m-shape{fill:var(--m-note-fill);stroke:var(--m-note-stroke);stroke-width:1px}.mercat .m-note .m-label{fill:var(--m-note-text)}.mercat .t-label{font-size:13px;font-weight:500}</style>
+  <style data-mercat-style="theme-light">#m54bf27__root{--m-bg:#ffffff;--m-text:#1f1f1f;--m-line:#545454;--m-node-fill:#f8f9fa;--m-node-stroke:#747775;--m-note-fill:#fef9e7;--m-note-stroke:#f39c12;--m-note-text:#1f1f1f}</style>
+  <style data-mercat-style="theme-dark">#m54bf27__root.dark{--m-bg:#1f1f1f;--m-text:#e3e3e3;--m-line:#bfbfbf;--m-node-fill:#2d2e30;--m-node-stroke:#8e918f;--m-note-fill:#69550d;--m-note-stroke:#f39c12;--m-note-text:#e3e3e3}</style>
+  <style data-mercat-style="type">#m54bf27__root .hex-pill{fill:var(--m-bg);stroke:var(--m-node-stroke);stroke-width:1.5px;stroke-linecap:round;stroke-linejoin:round}#m54bf27__root .label-text{fill:var(--m-text);font-size:13px;font-weight:500;white-space:pre}#m54bf27__root .bus-line{fill:none;stroke:var(--m-line);stroke-width:1.5px;stroke-linecap:round;stroke-linejoin:round}#m54bf27__root .junction-pin{fill:var(--m-bg);stroke:var(--m-line);stroke-width:1.5px}#m54bf27__root .annotation-text{fill:var(--m-text);font-size:12px;font-weight:500;white-space:pre}</style>
+  <style data-mercat-style="diagram">#m54bf27__root text{font-family:Google Sans Mono, Roboto Mono, monospace}</style>
+  <g class="mercat mercat-ascii">
+    <g class="m-node shape inner" id="m54bf27__node__n0" data-role="decision">
+      <polygon points="469.75,157 478.75,147 613.75,147 622.75,157 613.75,167 478.75,167" class="m-shape hex-pill"/>
+      <text x="546.25" y="157" class="m-label t-label label-text" text-anchor="middle">dev,prod,unlock</text>
+    </g>
+    <g class="m-edge" id="m54bf27__edge__pt__a2__0" data-role="connector">
+      <line x1="19.25" y1="47" x2="36.25" y2="47" class="m-path bus-line"/>
+    </g>
+    <g class="m-edge" id="m54bf27__edge__pt__a4__0" data-role="connector">
+      <line x1="53.25" y1="69" x2="70.25" y2="69" class="m-path bus-line"/>
+    </g>
+    <g class="m-edge" id="m54bf27__edge__pt__a5__0" data-role="connector">
+      <line x1="53.25" y1="91" x2="70.25" y2="91" class="m-path bus-line"/>
+    </g>
+    <g class="m-edge" id="m54bf27__edge__pt__a6__0" data-role="connector">
+      <line x1="53.25" y1="113" x2="70.25" y2="113" class="m-path bus-line"/>
+    </g>
+    <g class="m-edge" id="m54bf27__edge__pt__a7__0" data-role="connector">
+      <line x1="53.25" y1="135" x2="70.25" y2="135" class="m-path bus-line"/>
+    </g>
+    <g class="m-edge" id="m54bf27__edge__pt__a8__0" data-role="connector">
+      <line x1="19.25" y1="157" x2="36.25" y2="157" class="m-path bus-line"/>
+    </g>
+    <g class="m-edge" id="m54bf27__edge__n0__a11__0" data-role="connector">
+      <line x1="622.75" y1="157" x2="648.25" y2="157" class="m-path bus-line"/>
+    </g>
+    <g class="m-edge" id="m54bf27__edge__pt__a12__0" data-role="connector">
+      <line x1="53.25" y1="179" x2="70.25" y2="179" class="m-path bus-line"/>
+    </g>
+    <g class="m-edge" id="m54bf27__edge__pt__a14__0" data-role="connector">
+      <line x1="53.25" y1="201" x2="70.25" y2="201" class="m-path bus-line"/>
+    </g>
+    <g class="m-edge" id="m54bf27__edge__pt__a16__0" data-role="connector">
+      <line x1="87.25" y1="223" x2="104.25" y2="223" class="m-path bus-line"/>
+    </g>
+    <g class="m-edge" id="m54bf27__edge__pt__a17__0" data-role="connector">
+      <line x1="87.25" y1="245" x2="104.25" y2="245" class="m-path bus-line"/>
+    </g>
+    <g class="m-edge" id="m54bf27__edge__pt__pt__0" data-role="connector">
+      <line x1="19.25" y1="47" x2="19.25" y2="157" class="m-path bus-line"/>
+    </g>
+    <g class="m-edge" id="m54bf27__edge__pt__pt__1" data-role="connector">
+      <line x1="53.25" y1="69" x2="53.25" y2="135" class="m-path bus-line"/>
+    </g>
+    <g class="m-edge" id="m54bf27__edge__pt__pt__2" data-role="connector">
+      <line x1="53.25" y1="179" x2="53.25" y2="201" class="m-path bus-line"/>
+    </g>
+    <g class="m-edge" id="m54bf27__edge__pt__pt__3" data-role="connector">
+      <line x1="87.25" y1="223" x2="87.25" y2="245" class="m-path bus-line"/>
+    </g>
+    <circle cx="639.75" cy="157" r="3.5" class="m-shape junction-pin"/>
+    <g class="m-node m-note" id="m54bf27__note__a0" data-role="annotation">
+      <text x="15" y="25" class="m-label t-label annotation-text" text-anchor="start">res-signing-ca/</text>
+    </g>
+    <g class="m-node m-note" id="m54bf27__note__a1" data-role="annotation">
+      <text x="312.5" y="25" class="m-label t-label annotation-text" text-anchor="start"># Outside Git layers (or overridden via RES_SIGNING_DIR)</text>
+    </g>
+    <g class="m-node m-note" id="m54bf27__note__a2" data-role="annotation">
+      <text x="49" y="47" class="m-label t-label annotation-text" text-anchor="start">static/</text>
+    </g>
+    <g class="m-node m-note" id="m54bf27__note__a3" data-role="annotation">
+      <text x="312.5" y="47" class="m-label t-label annotation-text" text-anchor="start"># Used by: static, static-to-openbao, phytec-to-static</text>
+    </g>
+    <g class="m-node m-note" id="m54bf27__note__a4" data-role="annotation">
+      <text x="83" y="69" class="m-label t-label annotation-text" text-anchor="start">root-ca.cert.pem</text>
+    </g>
+    <g class="m-node m-note" id="m54bf27__note__a5" data-role="annotation">
+      <text x="83" y="91" class="m-label t-label annotation-text" text-anchor="start">intermediate-ca.cert.pem</text>
+    </g>
+    <g class="m-node m-note" id="m54bf27__note__a6" data-role="annotation">
+      <text x="83" y="113" class="m-label t-label annotation-text" text-anchor="start">signing.cert.pem</text>
+    </g>
+    <g class="m-node m-note" id="m54bf27__note__a7" data-role="annotation">
+      <text x="83" y="135" class="m-label t-label annotation-text" text-anchor="start">signing.key.pem</text>
+    </g>
+    <g class="m-node m-note" id="m54bf27__note__a8" data-role="annotation">
+      <text x="49" y="157" class="m-label t-label annotation-text" text-anchor="start">openbao/</text>
+    </g>
+    <g class="m-node m-note" id="m54bf27__note__a9" data-role="annotation">
+      <text x="312.5" y="157" class="m-label t-label annotation-text" text-anchor="start"># Used by: openbao-</text>
+    </g>
+    <g class="m-node m-note" id="m54bf27__note__a10" data-role="annotation">
+      <text x="621.5" y="157" class="m-label t-label annotation-text" text-anchor="start">,</text>
+    </g>
+    <g class="m-node m-note" id="m54bf27__note__a11" data-role="annotation">
+      <text x="652.5" y="157" class="m-label t-label annotation-text" text-anchor="start">to-openbao</text>
+    </g>
+    <g class="m-node m-note" id="m54bf27__note__a12" data-role="annotation">
+      <text x="83" y="179" class="m-label t-label annotation-text" text-anchor="start">ca-chain.pem</text>
+    </g>
+    <g class="m-node m-note" id="m54bf27__note__a13" data-role="annotation">
+      <text x="312.5" y="179" class="m-label t-label annotation-text" text-anchor="start"># Public Root + Intermediate CA (installed on target)</text>
+    </g>
+    <g class="m-node m-note" id="m54bf27__note__a14" data-role="annotation">
+      <text x="83" y="201" class="m-label t-label annotation-text" text-anchor="start">mtls/</text>
+    </g>
+    <g class="m-node m-note" id="m54bf27__note__a15" data-role="annotation">
+      <text x="312.5" y="201" class="m-label t-label annotation-text" text-anchor="start"># Build-host mTLS client credentials (never on target)</text>
+    </g>
+    <g class="m-node m-note" id="m54bf27__note__a16" data-role="annotation">
+      <text x="117" y="223" class="m-label t-label annotation-text" text-anchor="start">client.cert.pem</text>
+    </g>
+    <g class="m-node m-note" id="m54bf27__note__a17" data-role="annotation">
+      <text x="117" y="245" class="m-label t-label annotation-text" text-anchor="start">client.key.pem</text>
+    </g>
+  </g>
+</svg>

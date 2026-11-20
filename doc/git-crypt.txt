@@ -1,0 +1,11 @@
+File-by-File Breakdown
+
+File in res-signing-ca/		Encrypt with git-crypt?	Why
+static/signing.key.pem		YES (*.key.pem)		Private signing key—anyone with this can sign valid static bundles.
+openbao/mtls/client.key.pem	YES (*.key.pem)		Private mTLS key—anyone with this can authenticate to omv-1:9443 and request YubiKey/dev signatures.
+static/root-ca.cert.pem		NO			Public certificate; keeping it plain lets you inspect openssl x509 and verify chains without unlocking.
+static/intermediate-ca.cert.pem	NO			Public certificate.
+static/signing.cert.pem		NO			Public certificate.
+openbao/ca-chain.pem		NO			Public Root + Intermediate CA chain (same file installed on target devices).
+openbao/mtls/client.cert.pem	NO			Public client certificate (CN=yocto-builder.res.training); useless without client.key.pem.
+
